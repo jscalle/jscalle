@@ -2,7 +2,11 @@
   /* text-align: center; */
 }
 
+<<<<<<< HEAD:src/styleApp.css
 .styleApp-logo {
+=======
+.App-logo {
+>>>>>>> main:src/App.css
   height: 20vmin;
   pointer-events: none;
   border-radius: 50%;
@@ -38,11 +42,26 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD:src/styleApp.css
 @keyframes styleApp-logo-spin {
+=======
+.intro {
+  width: 40%;
+}
+
+.intro span {
+  font-weight: 500;
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+>>>>>>> main:src/App.css
   from {
     transform: rotate(0deg);
+    /* transform: rotate(0deg); */
   }
   to {
     transform: rotate(360deg);
+    /* transform: rotate(360deg); */
   }
 }
