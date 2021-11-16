@@ -23,7 +23,7 @@ const ContainerImg = ({img, hide}) => {
 const ContainerMultText = ({txt}) => {
     let texto = []
     for (const key in txt) {
-        texto.push(<li key={key} >{txt[key]}</li>)
+        texto.push(<li className="multiText" key={key} >{txt[key]}</li>)
     }
     return (
         <div className='unique-dc'>

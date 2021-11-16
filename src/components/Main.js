@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import '../styleApp.css';
+import '../main.css';
 const logo = 'https://i.pinimg.com/originals/af/1a/7d/af1a7dffcc95abe22dc27844169fa010.jpg';
 
 function App() {
@@ -13,16 +13,6 @@ function App() {
         <ul className="list">
           <li><Link className="styleApp-link" to="/misionnft">Misión NFT LATAM</Link></li>
           <li><Link className="styleApp-link" to="/cv">CV Personal</Link></li>
-          {/* <li>
-            <a className="styleApp-link" href="https://misionnftlatam.herokuapp.com/" target="_blank" rel="noopener noreferrer" >
-              Misión NFT LATAM
-            </a>
-          </li>
-          <li>
-            <a className="styleApp-link" href="https://misionnftlatam.herokuapp.com/" target="_blank" rel="noopener noreferrer" >
-              CV Personal
-            </a>
-          </li> */}
         </ul>
       </header>
     </div>
