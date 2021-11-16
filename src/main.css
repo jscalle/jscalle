@@ -1,7 +1,3 @@
-.styleApp {
-  /* text-align: center; */
-}
-
 .styleApp-logo {
   height: 20vmin;
   pointer-events: none;
@@ -30,7 +26,8 @@
 }
 
 .intro {
-  width: 40%;
+  width: 50%;
+  text-align: center;
 }
 
 .intro span {
@@ -38,22 +35,15 @@
   color: #61dafb;
 }
 
-.intro {
-  width: 40%;
-}
-
-.intro span {
-  font-weight: 500;
-  color: #61dafb;
-}
+/* .list {
+  padding: 0em !important;
+} */
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-    /* transform: rotate(0deg); */
   }
   to {
     transform: rotate(360deg);
-    /* transform: rotate(360deg); */
   }
 }

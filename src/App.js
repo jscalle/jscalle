@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./Components/Main"
-import Cv from "./Components/cv/main"
-import Misionnft from "./Components/misionnft/main"
-import './styleApp.css';
+import Home from "./components/Main"
+import Cv from "./components/cv/main"
+import Misionnft from "./components/misionnft/main"
+import './main.css';
 
 function App() {
   return (
