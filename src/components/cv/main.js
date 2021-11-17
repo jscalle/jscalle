@@ -5,6 +5,8 @@ import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
 import Languages from './components/Languages';
+import { FaPlus } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 import './main.css';
 
 const languages = [
@@ -200,12 +202,20 @@ const App = () => {
       <header>
         <div className='wrapper'>
           <div className='sidebar'>
-            <div className='languageSwitcher'>
-              <p>{getTranslation(lang, 'language')}</p>
-              <LanguageSwitcherSelector 
-                lang={lang}
-                handleChangeLanguage={changeLanguageHandler}
-                />
+            <div className="menu" >
+              <div className='languageSwitcher'>
+                <p>{getTranslation(lang, 'language')}</p>
+                <LanguageSwitcherSelector 
+                  lang={lang}
+                  handleChangeLanguage={changeLanguageHandler}
+                  />
+              </div>
+              <div className='projectsMenu'>
+                <p>Mis proyectos</p>
+                <div className="projects" >
+                  <Link to="/"><FaPlus size={28} style={{color:'white'}} /></Link>
+                </div>
+              </div>
             </div>
             <About
               avatar={getTranslation(lang, 'avatar')}
