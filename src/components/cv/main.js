@@ -263,7 +263,7 @@ const LanguageSwitcherSelector = ({lang, handleChangeLanguage}) => {
         className={lang}
       >
       </div>
-      <ul class="dropdown" >
+      <ul className="dropdown" >
         {options}
       </ul>
     </div>
