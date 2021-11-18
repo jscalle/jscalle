@@ -6,7 +6,7 @@ const About = ({avatar, name, profession, birth, bio, address, social}) => {
   return(
     <div className='bio'>
       <div className='avatar'>
-        <img src={avatar} alt={name} />
+        <img className="mx-auto" src={avatar} alt={name} />
       </div>
       <div className='title'>
         <h1>{name}</h1>

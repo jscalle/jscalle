@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './main.css';
+// import { StyleReset } from 'atomize';
 import env from './components/env.json'
 import DoubleContent from './components/doubleContent';
-const logo = 'https://i.pinimg.com/originals/af/1a/7d/af1a7dffcc95abe22dc27844169fa010.jpg';
+const logo = 'https://i.pinimg.com/originals/f4/83/4b/f4834b81fe7412c36c81bb5c87969d52.jpg';
 
 function App() {
   return (
     <div className="Main" >
+      {/* <StyleReset /> */}
       <header className="Main-header">
         {/* <img src={logo} className="Main-logo" alt="logo" /> */}
         <h1>MISIÓN NFT LATAM</h1>
