@@ -94,7 +94,7 @@ function App() {
                         </Link>
                       </div>
 
-                      <div className="w-full lg:w-8/12 px-4">
+                      {/* <div className="w-full lg:w-8/12 px-4">
                         <h5 className="text-xl font-semibold pb-4 text-center">
                           CV (Hoja de vida)
                         </h5>
@@ -107,7 +107,7 @@ function App() {
                             />
                           </div>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

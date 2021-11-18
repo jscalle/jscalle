@@ -7,7 +7,7 @@ const Skills = (props) => {
         <div className='item w33' key={skll.name}>
           <h3>{skll.name}</h3>
           <div className='skills'>
-            <span style={{width: skll.percentage}}></span>
+            <span style={{width: skll.percentage, height: '7px', top:-3.5, left:-4}}></span>
           </div>
         </div>
       )}
@@ -16,7 +16,7 @@ const Skills = (props) => {
   return (
     <div className='title'>
       <i className='fa fa-code'></i>
-      <h2>{props.title}</h2>
+      <h2 className="font-bold">{props.title}</h2><br/>
       {mySkills}
     </div>
   )
