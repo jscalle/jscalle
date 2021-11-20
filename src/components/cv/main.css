@@ -121,6 +121,7 @@
   0% {transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
 }
+
 .en{
   background-image: url("https://i.pinimg.com/originals/d1/92/95/d19295ff4feb4bcf5fb1ecb2f3ce2ffb.jpg");
   background-size: 100%;
@@ -147,3 +148,11 @@
   height: 43px;
   margin: 10px;
 }
+
+/* @media only screen and (max-width: 768px) {
+  .slider {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+  }
+} */

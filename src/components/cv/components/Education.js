@@ -5,7 +5,7 @@ const Education = (props) => {
     <div>
       {props.education.map((edu) =>
         <div className='item' key={edu.degree}>
-          <h3>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
+          <h3 className="font-bold">{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
           <p>{edu.description}</p>
         </div>
       )}
@@ -14,7 +14,7 @@ const Education = (props) => {
   return (
     <div className='title'>
       <i className='fa fa-graduation-cap'></i>
-      <h2>{props.title}</h2>
+      <h2 className="font-bold">{props.title}</h2><br/>
       {myEducation}
     </div>
   )

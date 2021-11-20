@@ -8,7 +8,7 @@ const Certificate = (props) => {
     <div>
       {props.certificate.map((cert) =>
         <div className='item' key={cert.name}>
-          <h3>{cert.name} @ {cert.institution} <span>{cert.date}</span></h3>
+          <h3 className="font-bold">{cert.name} @ {cert.institution} <span>{cert.date}</span></h3>
           <div style={{position:'relative', display:'inline-flex' }}>
             <p>{cert.description}</p>
             {cert.certificate==='diplomaNfts'?<a style={{width:'150px'}} href={diplomaNfts} target="_blank"><FaRegPlusSquare size={30} /></a>
@@ -21,7 +21,7 @@ const Certificate = (props) => {
   return (
     <div className='title'>
       <i className='fa fa-trophy'></i>
-      <h2>{props.title}</h2>
+      <h2 className="font-bold">{props.title}</h2><br/>
       {myCertificates}
     </div>
   )
