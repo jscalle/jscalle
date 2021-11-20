@@ -21,8 +21,18 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
+      // transparent: 'transparent',
+      // current: 'currentColor',
+      // gray: colors.trueGray,
+      // red: colors.red,
+      // blue: colors.sky,
+      // yellow: colors.amber,
     },
     extend: {
+      fontFamily: {
+        'yuji': ['Yuji Syuku', 'serif'],
+        'estonia': ['Estonia', 'cursive'],
+      },
       minHeight: {
         "screen-75": "75vh",
       },
@@ -97,6 +107,7 @@ module.exports = {
   ],
   plugins: [
     require("@tailwindcss/forms"),
+    require('@tailwindcss/typography'),
     plugin(function ({ addComponents, theme }) {
       const screens = theme("screens", {});
       addComponents([
