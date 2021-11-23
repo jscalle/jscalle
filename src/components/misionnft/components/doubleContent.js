@@ -11,12 +11,12 @@ const ContainterText = ({txt}) => {
     )
 }
 
-const ContainerImg = ({img, hide}) => {
+const ContainerImg = ({img, hide, aux}) => {
     return hide ? (<div className='dci hide'>
-            <img src={img} className="bloque-imagen" />
+            <img src={img} className={`bloque-imagen`} />
         </div>)
-        : (<div className='dci'>
-            <img src={img} className="bloque-imagen" />
+        : (<div className={`${aux?`dci-${aux}`:'dci'}`}>
+            <img src={img} className={`${aux?aux:'bloque-imagen'}`} />
         </div>)
 }
 
@@ -68,7 +68,7 @@ const ContainerAskAndAnswer = ({txt}) => {
     )
 }
 
-const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => {
+const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide, aux}) => {
     return option===1
     ? (
         <div className='main'>
@@ -110,7 +110,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
         <div className='main'>
             <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container cImg'>
-                <ContainerImg img={img}/>
+                {aux='grupo'?<ContainerImg img={img} aux={aux}/>:<ContainerImg img={img}/>}
                 {img2&&<ContainerImg img={img2}/>}
             </div>    
         </div>

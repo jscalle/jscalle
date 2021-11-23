@@ -5,7 +5,12 @@ import DoubleContent from './components/doubleContent';
 import Navbar from "../Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 // const logo = 'https://i.pinimg.com/originals/f4/83/4b/f4834b81fe7412c36c81bb5c87969d52.jpg';
-const logo = require('../../assets/img/pkball.png').default;
+// const logo = require('../../assets/img/pkball.png').default;
+const persLeft = require('../../assets/img/pesonajePrincipalLeft.png').default;
+const persFront = require('../../assets/img/pesonajePrincipalFront.png').default;
+const persRight = require('../../assets/img/pesonajePrincipalRight.png').default;
+const persGroup = require('../../assets/img/pesonajePrincipalGroup.png').default;
+const persMultiGroup = require('../../assets/img/pesonajePrincipalMultiGroup.png').default;
 
 export default function Profile() {
   return (
@@ -18,8 +23,8 @@ export default function Profile() {
             style={{
               backgroundImage:
                 // "url('https://i.pinimg.com/originals/af/1a/7d/af1a7dffcc95abe22dc27844169fa010.jpg')",
-                // "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
-                "url('https://compote.slate.com/images/1ac38d53-d44b-4dd6-b776-68c9922863a8.gif?width=1200&rect=780x520&offset=0x0')",
+                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
+                // "url('https://compote.slate.com/images/1ac38d53-d44b-4dd6-b776-68c9922863a8.gif?width=1200&rect=780x520&offset=0x0')",
                 // "url('https://64.media.tumblr.com/895d0262561113630297f7576ddaec65/d9349dddc86a6ee5-ed/s1280x1920/8b864be43fdbe0933e1d03c443a3cd5852a28d29.gifv')",
             }}
           >
@@ -58,8 +63,9 @@ export default function Profile() {
                     <div className="relative">
                       {/* <img
                         alt="..."
-                        src={require("assets/img/team-0-800x800.jpg").default}
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                        src={require("assets/img/pesonajePrincipal.png").default}
+                        // className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                        className="h-auto align-middle border-none absolute -mt-48 ml-32 max-w-150-px"
                       /> */}
                       <h1 className="text-5xl sm:text- font-bold italic leading-normal text-blueGray-800 text-center">
                         Misión NFT LATAM
@@ -72,15 +78,15 @@ export default function Profile() {
                 <div className="mt-4 py-10 border-blueGray-200 text-left"> {/* border-t */}
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-10/12 px-6 sm:px-2">
-                      <DoubleContent option={1} title={env.bloque1.titulo} txt={env.bloque1.texto1} img={logo} reverse={true} />
-                      <DoubleContent option={2} txt={env.bloque1.texto2} img={logo} hide={true} />
-                      <DoubleContent option={1} txt={env.bloque1.texto3} img={logo} />
-                      <DoubleContent option={2} title={env.bloque2.titulo} txt={env.bloque2.texto} img={logo} />
-                      <DoubleContent option={1} title={env.bloque3.titulo} txt={env.bloque3.texto} img={logo} />
-                      <DoubleContent option={4} img={logo}/> {/* img2={logo} */}
+                      <DoubleContent option={1} title={env.bloque1.titulo} txt={env.bloque1.texto1} img={persLeft} reverse={true} />
+                      <DoubleContent option={2} txt={env.bloque1.texto2} img={persRight} hide={true} />
+                      <DoubleContent option={1} txt={env.bloque1.texto3} img={persLeft} />
+                      <DoubleContent option={2} title={env.bloque2.titulo} txt={env.bloque2.texto} img={persRight} />
+                      <DoubleContent option={1} title={env.bloque3.titulo} txt={env.bloque3.texto} img={persFront} />
+                      <DoubleContent option={4} img={persGroup} aux={'grupo'}/> {/* img2={logo} */}
                       <DoubleContent option={7} title={env.bloque4.titulo} txt={env.bloque4.texto} />
                       <DoubleContent option={8} title={env.bloque5.titulo} txt={env.bloque5.texto} />
-                      <DoubleContent option={4} img={logo}/> {/* img2={logo} */}
+                      <DoubleContent option={4} img={persMultiGroup} aux={'grupo'}/> {/* img2={logo} */}
                       <DoubleContent option={9} title={env.bloque6.titulo} txt={env.bloque6.texto} />
                     </div>
                   </div>

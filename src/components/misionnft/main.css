@@ -26,10 +26,23 @@
 }
 
 .bloque-imagen {
-  width: 35vmin;
+  /* width: 35vmin; */
   height: 35vmin;
   pointer-events: none;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  display: flex;
+  text-align: 'center';
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  animation: bounce 1s infinite;
+}
+
+.grupo {
+  width: 90vmin;
+  height: auto;
+  pointer-events: none;
+  /* border-radius: 50%; */
   display: flex;
   text-align: 'center';
   flex-direction: row;
@@ -103,6 +116,16 @@
   justify-content: center;
   padding-top: 1em;
   width: 30%;
+}
+
+.dci-grupo {
+  display: flex;
+  text-align: 'center';
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 1em; */
+  width: 90% !important;
 }
 
 .multiText {
