@@ -176,6 +176,8 @@
 
   .main {
     font-size: calc(6.5px + 2vmin);
+    margin-bottom: 1.5em; 
+    padding-bottom: 1.5em; 
   }
 
   .container {
@@ -188,7 +190,7 @@
   }
 
   .dc {
-    padding: 1em;
+    /* padding: 0.2em; */
     width: 100%;
   }
 
@@ -198,8 +200,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center; */
-    padding-top: 1em;
-    /* width: 30%; */
+    padding: 1.5em;
+    width: 100%;
   }
 
   .bloque-imagen {
