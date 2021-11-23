@@ -125,7 +125,7 @@ export default function Profile() {
                 </div>
                 <div className="mt-4 py-10 border-blueGray-200 text-left"> {/* border-t */}
                   <div className="flex flex-wrap justify-center">
-                    <div className="w-full lg:w-10/12 px-6">
+                    <div className="w-full lg:w-10/12 px-6 sm:px-2">
                       <DoubleContent option={1} title={env.bloque1.titulo} txt={env.bloque1.texto1} img={logo} reverse={true} />
                       <DoubleContent option={2} txt={env.bloque1.texto2} img={logo} hide={true} />
                       <DoubleContent option={1} txt={env.bloque1.texto3} img={logo} />
