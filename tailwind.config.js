@@ -21,12 +21,6 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
-      // transparent: 'transparent',
-      // current: 'currentColor',
-      // gray: colors.trueGray,
-      // red: colors.red,
-      // blue: colors.sky,
-      // yellow: colors.amber,
     },
     extend: {
       fontFamily: {

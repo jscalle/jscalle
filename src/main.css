@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
 
 .Main {
-  /* background-color: rgba(94,94,94,0.81); */
   font-family: 'Yuji Syuku';
 }
 
@@ -9,15 +8,7 @@
   height: 40vmin;
   pointer-events: none;
   border-radius: 50%;
-  /* margin-top: 1em;
-  margin-bottom: 1em; */
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .styleApp-logo {
-    animation: styleApp-logo-spin infinite 20s linear;
-  }
-} */
 
 .App-header {
   background-color: #282c34;
@@ -36,26 +27,3 @@
 .noLink {
   color: aliceblue;
 }
-
-/* .intro {
-  width: 90%;
-  text-align: center;
-} */
-
-/* .intro span {
-  font-weight: 1000;
-  color: aliceblue;
-}
-
-.list li {
-  padding: 0.2em;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

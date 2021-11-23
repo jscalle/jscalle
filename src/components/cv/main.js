@@ -30,7 +30,7 @@ const App = () => {
       name: 'Juan Sebastian Calle Loaiza',
       birth: 'November, 27th, 1995',
       profession: 'BackEnd Developer',
-      bio: '❤ BackEnd Developer - Enterpreneur - Maker, Javascript Lover, Blockchain is the Future. I prefer to be constantly learning.',
+      bio: '❤ BackEnd Developer - Entrepreneur - I like to do and learn something new constantly, I develop in all Javascript technologies, I think Blockchain is the future of development, it`s the new face of the internet, it`s the base of the web 3.',
       address: 'Medellín, Antioquia - Colombia.',
       social: [
         {name: 'instagram', url: 'https://instagram.com/jscalle'},
