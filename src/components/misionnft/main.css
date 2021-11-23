@@ -174,6 +174,10 @@
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39); */
   }
 
+  .main {
+    font-size: calc(6.5px + 2vmin);
+  }
+
   .container {
     display: flex;
     text-align: 'center';
@@ -186,6 +190,16 @@
   .dc {
     padding: 1em;
     width: 100%;
+  }
+
+  .dci {
+    /* display: flex;
+    text-align: 'center';
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    padding-top: 1em;
+    /* width: 30%; */
   }
 
   .bloque-imagen {

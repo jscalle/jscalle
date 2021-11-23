@@ -62,7 +62,7 @@ export default function Profile() {
                         src={require("assets/img/team-0-800x800.jpg").default}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       /> */}
-                      <h1 className="text-6xl font-bold italic leading-normal text-blueGray-800 text-center">
+                      <h1 className="text-5xl sm:text- font-bold italic leading-normal text-blueGray-800 text-center">
                         Misión NFT LATAM
                       </h1>
                     </div>
