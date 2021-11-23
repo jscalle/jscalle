@@ -2,7 +2,7 @@ import React from "react";
 import env from './components/env.json'
 import DoubleContent from './components/doubleContent';
 
-// import Navbar from "./components/Navbars/AuthNavbar.js";
+import Navbar from "../Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 // const logo = 'https://i.pinimg.com/originals/f4/83/4b/f4834b81fe7412c36c81bb5c87969d52.jpg';
 const logo = require('../../assets/img/pkball.png').default;
@@ -10,7 +10,7 @@ const logo = require('../../assets/img/pkball.png').default;
 export default function Profile() {
   return (
     <>
-      {/* <Navbar transparent /> */}
+      <Navbar transparent />
       <main className="profile-page font-mono">
         <section className="relative block h-500-px">
           <div
@@ -27,7 +27,6 @@ export default function Profile() {
               id="blackOverlay"
               className="w-full h-full absolute opacity-50 bg-black"
             >
-              {/* <h1 className="text-6xl font-bold italic leading-normal mb-2 text-blueGray-700 mb-2"> */}
             </span>
           </div>
           <div
@@ -67,61 +66,8 @@ export default function Profile() {
                       </h1>
                     </div>
                   </div>
-                {/*   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                    <div className="py-6 px-3 mt-32 sm:mt-0">
-                      <button
-                        className="bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
-                        Connect
-                      </button>
-                    </div>
-                  </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-1">
-                    <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          22
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Friends
-                        </span>
-                      </div>
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          10
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Photos
-                        </span>
-                      </div>
-                      <div className="lg:mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          89
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Comments
-                        </span>
-                      </div>
-                    </div>
-                  </div> */}
                 </div> 
                 <div className="text-center">
-                  {/* <h1 className="text-6xl font-bold italic leading-normal mb-2 text-blueGray-700 mb-2">
-                    Misión NFT LATAM
-                  </h1> */}
-                  {/* <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
-                    <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
-                    Los Angeles, California
-                  </div> */}
-                  {/* <div className="mb-2 text-blueGray-600 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Solution Manager - Creative Tim Officer
-                  </div>
-                  <div className="mb-2 text-blueGray-600">
-                    <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
-                    University of Computer Science
-                  </div> */}
                 </div>
                 <div className="mt-4 py-10 border-blueGray-200 text-left"> {/* border-t */}
                   <div className="flex flex-wrap justify-center">
@@ -136,18 +82,6 @@ export default function Profile() {
                       <DoubleContent option={8} title={env.bloque5.titulo} txt={env.bloque5.texto} />
                       <DoubleContent option={4} img={logo}/> {/* img2={logo} */}
                       <DoubleContent option={9} title={env.bloque6.titulo} txt={env.bloque6.texto} />
-                      
-                      {/* <h2 className="text-4xl" >{env.bloque1.titulo}</h2><br/>
-                      <p className="mb-4 text-lg font-estonia leading-relaxed text-blueGray-700">
-                        {env.bloque1._texto}
-                      </p> */}
-                      {/* <a
-                        href="#pablo"
-                        className="font-normal text-lightBlue-500"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Show more
-                      </a> */}
                     </div>
                   </div>
                 </div>
