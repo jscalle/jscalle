@@ -12,10 +12,10 @@ const ContainterText = ({txt}) => {
 }
 
 const ContainerImg = ({img, hide}) => {
-    return hide ? (<div className='dc hide'>
+    return hide ? (<div className='dci hide'>
             <img src={img} className="bloque-imagen" />
         </div>)
-        : (<div className='dc'>
+        : (<div className='dci'>
             <img src={img} className="bloque-imagen" />
         </div>)
 }
@@ -27,7 +27,7 @@ const ContainerMultText = ({txt}) => {
     }
     return (
         <div className='unique-dc'>
-            <ul>
+            <ul className="list-disc" >
                 {texto}
             </ul>
         </div>
@@ -40,8 +40,8 @@ const ContainerRoadMap = ({txt}) => {
         key==='objetivo' 
         ? data.push(<p key={key} >{txt[key]}</p>)
         : data.push(
-            <div key={key} >
-                <h3>{txt[key].fecha}</h3>
+            <div key={key} className="mb-12">
+                <h3 className="font-semibold" >{txt[key].fecha}</h3>
                 <p className="saltoLinea">{txt[key].descripcion}</p>
             </div>
         )
@@ -56,8 +56,8 @@ const ContainerAskAndAnswer = ({txt}) => {
     let data = []
     for (const key in txt) {
         data.push(
-            <div key={key} >
-                <h5>{txt[key].pregunta}</h5>
+            <div key={key} className="mt-8 mb-12">
+                <h5 className="font-semibold">{txt[key].pregunta}</h5>
                 <p>{txt[key].respuesta}</p>
             </div>
         )
@@ -72,7 +72,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
     return option===1
     ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             {reverse 
                 ? (<div className='container reverse'>
                     <ContainterText txt={txt} />
@@ -88,7 +88,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
     
     : option===2 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainerImg img={img} hide={hide}/>
                 <ContainterText txt={txt} />
@@ -98,7 +98,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
 
     : option===3 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainterText txt={txt} />
                 <ContainterText txt={txto} />
@@ -108,17 +108,17 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
 
     : option===4 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container cImg'>
                 <ContainerImg img={img}/>
-                <ContainerImg img={img2}/>
+                {img2&&<ContainerImg img={img2}/>}
             </div>    
         </div>
     )
 
     : option===5 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainerImg img={img}/>
             </div>    
@@ -127,7 +127,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
     
     : option===6 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainterText txt={txt} />
             </div>    
@@ -136,7 +136,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
 
     : option===7 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainerMultText txt={txt} />
             </div>    
@@ -145,7 +145,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
 
     : option===8 ? (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainerRoadMap txt={txt} />
             </div>    
@@ -154,7 +154,7 @@ const doubleContent = ({option, title, txt, txto, img, img2, reverse, hide}) => 
 
     : option===9 && (
         <div className='main'>
-            <h2 className="title" >{title}</h2>
+            <h2 className="title text-3xl font-semibold" >{title}</h2>
             <div className='container'>
                 <ContainerAskAndAnswer txt={txt} />
             </div>    
