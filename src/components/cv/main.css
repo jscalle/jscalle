@@ -38,6 +38,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 95%;
+  font-size: 15px;
+  margin-inline: auto;
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .languageSwitcher {
@@ -72,6 +77,32 @@
   border-color: white;
   border-style: solid;
 }
+
+/* .downloPDF {
+  background-color: #61dafb;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 5%;
+  /* padding-top: 10%; */
+  /* margin-top: 5%; */
+  /*margin-inline: auto;
+}
+
+.downloPDF p {
+  margin-bottom: 6.5px;
+  font-weight: bold;
+}
+
+.dwPdf {
+  padding: 0.3em;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+} */
 
 .helloHeader{
   font-family: 'Roboto', sans-serif;
@@ -149,10 +180,76 @@
   margin: 10px;
 }
 
-/* @media only screen and (max-width: 768px) {
-  .slider {
+/* @media only screen and (max-width: 1760px) {
+  .downloPDF {
+    background-color: #61dafb;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    /* margin-bottom: -5%; */
+    /* padding-top: 10%; */
+    /* margin-top: 5%; */
+    /*margin-inline: auto;
+  }
+  
+  .downloPDF p {
+    margin-bottom: 6.5px;
+    font-weight: bold;
+  }
+  
+  .dwPdf {
+    padding: 0.3em;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  /* .slider {
     border-top-right-radius: 0%;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
+  } */
+
+  .menu {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%; */
+    font-size: 12px;
+    margin-inline: auto;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
-} */
+  
+  /* .downloPDF {
+    background-color: #61dafb;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -5%;
+    /* padding-top: 10%; */
+    /*margin-top: 5%;
+    margin-inline: auto;
+  }
+  
+  .downloPDF p {
+    margin-bottom: 6.5px;
+    font-weight: bold;
+  }
+  
+  .dwPdf {
+    padding: 0.3em;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+  } */
+}

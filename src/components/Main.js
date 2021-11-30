@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-// import '../main.css';
+import '../main.css';
 import Footer from "components/Footers/Footer.js";
-const logo = 'https://i.pinimg.com/originals/af/1a/7d/af1a7dffcc95abe22dc27844169fa010.jpg';
+// const logo = 'https://i.pinimg.com/originals/af/1a/7d/af1a7dffcc95abe22dc27844169fa010.jpg';
 
 function App() {
   return (
@@ -83,6 +83,7 @@ function App() {
                         <h5 className="text-xl font-semibold pb-4 text-center">
                           Misión NFT LATAM
                         </h5>
+                        {/* <a href="https://misionnftlatam.herokuapp.com"> */}
                         <Link to="/misionnft">
                           <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                             <img
@@ -92,6 +93,7 @@ function App() {
                             />
                           </div>
                         </Link>
+                        {/* </a> */}
                       </div>
 
                       {/* <div className="w-full lg:w-8/12 px-4">
