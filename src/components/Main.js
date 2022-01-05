@@ -6,9 +6,9 @@ import Footer from "components/Footers/Footer.js";
 function App() {
   return (
     <>
-      <section className="mt-24 pb-0 relative bg-blueGray-100 ">
+      <section className="mt-32 pb-0 relative bg-gray-500 ">
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          className="-mt-32 top-0 bottom-auto left-0 right-0 w-full absolute h-32 bg-gray-600"
           style={{ transform: "translateZ(0)" }}
         >
           <svg
@@ -21,7 +21,7 @@ function App() {
             y="0"
           >
             <polygon
-              className="text-blueGray-100 fill-current"
+              className="text-gray-500 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -79,7 +79,7 @@ function App() {
                         </Link>
                       </div> */}
 
-                      <div className="w-full lg:w-8/12 px-4">
+                      <div className="w-full lg:w-9/12 px-4">
                         <h5 className="text-xl font-semibold pb-4 text-center">
                           Misión NFT LATAM
                         </h5>
@@ -95,8 +95,23 @@ function App() {
                         </Link>
                         {/* </a> */}
                       </div>
-
-                      {/* <div className="w-full lg:w-8/12 px-4">
+{/* ------------------------------------------------------------------------- */}
+                      <div className="w-full lg:w-9/12 px-4">
+                        <h5 className="text-xl font-semibold pb-4 text-center">
+                          FrontEnd ReactJS + TailwindCSS 
+                        </h5>
+                        <Link to="/pageReactWithTailwindCSS">
+                          <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                            <img
+                              alt="..."
+                              className="align-middle border-none max-w-full h-auto rounded-lg"
+                              src={require("assets/img/landing.jpg").default}
+                            />
+                          </div>
+                        </Link>
+                      </div>
+{/* ------------------------------------------------------------------------- */}
+                      <div className="w-full lg:w-9/12 px-4">
                         <h5 className="text-xl font-semibold pb-4 text-center">
                           CV (Hoja de vida)
                         </h5>
@@ -109,7 +124,7 @@ function App() {
                             />
                           </div>
                         </Link>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
