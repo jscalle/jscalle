@@ -13,10 +13,10 @@ const ContainterText = ({txt}) => {
 
 const ContainerImg = ({img, hide, aux}) => {
     return hide ? (<div className='dci hide'>
-            <img src={img} className={`bloque-imagen`} />
+            <img src={img} className={`bloque-imagen`} alt=""/>
         </div>)
         : (<div className={`${aux?`dci-${aux}`:'dci'}`}>
-            <img src={img} className={`${aux?aux:'bloque-imagen'}`} />
+            <img src={img} className={`${aux?aux:'bloque-imagen'}`} alt=""/>
         </div>)
 }
 

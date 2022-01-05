@@ -1,11 +1,11 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
 import Languages from './components/Languages';
-import { FaPlus } from 'react-icons/fa';
+import { FaPlus, FaCloudDownloadAlt } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import './main.css';
 
@@ -15,13 +15,15 @@ const languages = [
   { code: 'fr', name: 'Français'}
 ]
 
-const App = () => {
+const App = ({MyDoc}) => {
 
     const [lang, setLang] = useState('es')
 
     const changeLanguageHandler = (lang) => {
       setLang( lang );
     }
+
+    console.log(MyDoc)
 
   const translations = {
     'en': {
@@ -86,7 +88,7 @@ const App = () => {
       name: 'Juan Sebastian Calle Loaiza',
       birth: 'Noviembre 27 de 1995',
       profession: 'Desarrollador BackEnd',
-      bio: '❤ Desarrollador BackEnd - Emprendedor - Me gusta hacer y aprender algo nuevo constantemente, desarrollo en todas las tecnologias de Javascript, pienso que Blockchain es el futuro del desarrollo, es la nueva cara del internet, es la base de la web 3.',
+      bio: '❤ Desarrollador BackEnd - Emprendedor - Me gusta hacer y aprender algo nuevo constantemente, desarrollo con tecnologias basadas en Javascript, pienso que Blockchain es el futuro del desarrollo, es la nueva cara del internet, es la base de la web 3.',
       address: 'Medellín, Antioquia - Colombia.',
       social: [
         {name: 'instagram', url: 'https://instagram.com/jscalle'},
@@ -216,6 +218,12 @@ const App = () => {
                   <Link to="/"><FaPlus size={28} style={{color:'white'}} /></Link>
                 </div>
               </div>
+              {lang==='es' && <div className='projectsMenu' style={{paddingRight:'1rem'}}>
+                <p>Descargar en PDF</p>
+                <div className="projects" >
+                  <Link to="/files/CV-Juan-Sebastian-Calle-xESx-2022.pdf" target="_blank" download ><FaCloudDownloadAlt size={28} style={{color:'white'}} /></Link>
+                </div>
+              </div>}
             </div>
             <About
               avatar={getTranslation(lang, 'avatar')}
@@ -226,7 +234,12 @@ const App = () => {
               address={getTranslation(lang, 'address')}
               social={getTranslation(lang, 'social')}
             />
-            
+            {/* {lang==='es' && <div className='downloPDF'>
+              <p>Descargar en PDF</p>
+              <div className="dwPdf" >
+                <Link to="/files/CV-Juan-Sebastian-Calle-xESx-2022.pdf" target="_blank" download ><FaCloudDownloadAlt size={28} style={{color:'white'}} /></Link>
+              </div>
+            </div>} */}
           </div>
 
           <div className='content-wrapper'>
@@ -251,9 +264,9 @@ const LanguageSwitcherSelector = ({lang, handleChangeLanguage}) => {
     handleChangeLanguage(e.target.className);
   }
 
-  const options = languages.map(language => {
-    if(language.code != lang){
-      return <li onClick={onChange}><div value={language.code} className={language.code} ></div></li>
+  const options = languages.map((language,i) => {
+    if(language.code !== lang){
+      return <li key={i} onClick={onChange}><div value={language.code} className={language.code} ></div></li>
     }  
   });
     

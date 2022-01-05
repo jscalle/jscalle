@@ -89,6 +89,17 @@ export default function Profile() {
                       <DoubleContent option={4} img={persMultiGroup} aux={'grupo'}/> {/* img2={logo} */}
                       <DoubleContent option={9} title={env.bloque6.titulo} txt={env.bloque6.texto} />
                     </div>
+
+                    <div>
+                      <div class="container-wrapper-genially" style={{position: 'relative', minHeight: '400px', maxWidth: '100%'}}>
+                        <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style={{position: 'absolute', top: '45%', left: '50%', transform: 'translate(-50%, -50%)', width: '80px', height: '80px', marginBottom: '10%'}}>
+                          <source src="https://static.genial.ly/resources/panel-loader-low.mp4" type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                        <div id="61a97b1f61b8c00d8d442a43" class="genially-embed" style={{margin: '0px auto', position: 'relative', height: 'auto', width: '100%'}}> </div>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
