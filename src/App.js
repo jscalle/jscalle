@@ -7,6 +7,8 @@ import "./assets/styles/tailwind.css";
 import Home from "./components/Main"
 import Cv from "./components/cv/main"
 import Misionnft from "./components/misionnft/main"
+import Landing from "./components/Landing"
+
 import './main.css';
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="cv" element={<Cv />} />
         <Route path="misionnft" element={<Misionnft />} />
+        <Route path="pageReactWithTailwindCSS" element={<Landing />} />
       </Routes>
     </div>
   )
