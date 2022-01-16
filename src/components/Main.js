@@ -83,8 +83,9 @@ function App() {
                         <h5 className="text-xl font-semibold pb-4 text-center">
                           Misión NFT LATAM
                         </h5>
-                        {/* <a href="https://misionnftlatam.herokuapp.com"> */}
-                        <Link to="/misionnft">
+                        <a href="https://misionnftlatam.herokuapp.com">
+                        {/* <Link to="https://misionnftlatam.herokuapp.com"> */}
+                        {/* <Link to="/misionnft"> */}
                           <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                             <img
                               alt="..."
@@ -92,8 +93,8 @@ function App() {
                               src={require("assets/img/misionnft.JPG").default}
                             />
                           </div>
-                        </Link>
-                        {/* </a> */}
+                        {/* </Link> */}
+                        </a>
                       </div>
 {/* ------------------------------------------------------------------------- */}
                       <div className="w-full lg:w-9/12 px-4">

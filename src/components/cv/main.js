@@ -53,6 +53,7 @@ const App = ({MyDoc}) => {
       ],
       tCertificate: 'CERTIFICATE',
       certificate: [
+        {name: 'Tailwind CSS', institution: 'Platzi', date: 'enero 2022', description: 'development of responsive web applications with Tailwind CSS, its main features include Mobile First and Utility First', certificate: 'diplomaTailwindCss' },
         {name: 'Creation of NFTs', institution: 'Platzi', date: 'October 2021', description: 'token creation under the ethereum network in the ERC-721 and ERC-1155 standards..' },
         {name: 'Introduction to DeFi Investing', institution: 'Platzi', date: 'November 2021', description: 'Creation of investment portfolios, conceptualization of decentralized finance, similarities and differences between traditional investments and DeFi investments..', certificate: 'diplomaDefi' },
       ],
@@ -109,6 +110,7 @@ const App = ({MyDoc}) => {
       ],
       tCertificate: 'CERTIFICACIONES',
       certificate: [
+        {name: 'Tailwind CSS', institution: 'Platzi', date: 'enero 2022', description: 'desarrollo de aplicaciones web responsivas con Tailwind CSS, en sus mayores caracteristicas estan Mobile First y Utility First', certificate: 'diplomaTailwindCss' },
         {name: 'Creación de NFTs', institution: 'Platzi', date: 'Octubre 2021', description: 'Creación de tokens bajo la red de ethereum en los estandares ERC-721 y ERC-1155.', certificate: 'diplomaNfts' },
         {name: 'Introducción a Inversión en DeFi', institution: 'Platzi', date: 'Noviembre 2021', description: 'Creación de portafolio de inversión, conceptualización de que son Finanzas descentralizadas, que similitudes y diferencias existen entre las inversiones tradicionales e inversiones DeFi.', certificate: 'diplomaDefi' },
       ],
@@ -165,6 +167,7 @@ const App = ({MyDoc}) => {
       ],
       tCertificate: 'CERTIFICACIONES',
       certificate: [
+        {name: 'Tailwind CSS', institution: 'Platzi', date: 'octobre 2021', description: 'développement d`applications web réactives avec Tailwind CSS, dont les principales caractéristiques sont Mobile First et Utility First.', certificate: 'diplomaTailwindCss' },
         {name: 'Création de NFTs', institution: 'Platzi', date: 'octobre 2021', description: 'création de jetons sous le réseau ethereum sur les standards ERC-721 et ERC-1155..', certificate: 'diplomaNfts' },
         {name: 'Introduction à l´investissement DeFi', institution: 'Platzi', date: 'Novembre 2021', description: 'Création de portefeuilles d´investissement, conceptualisation de ce qu´est la finance décentralisée, quelles sont les similitudes et les différences entre les investissements traditionnels et les investissements DeFi.', certificate: 'diplomaDefi' },
       ],
@@ -271,12 +274,12 @@ const LanguageSwitcherSelector = ({lang, handleChangeLanguage}) => {
   });
     
   return (
-    <div className="lang"> 
+    <div className="lang relative"> 
       <div 
-        className={lang}
+        className={`${lang}`}
       >
       </div>
-      <ul className="dropdown" >
+      <ul className="dropdown bg-gray-800 relative" >
         {options}
       </ul>
     </div>

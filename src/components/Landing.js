@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // components
 
@@ -9,7 +9,7 @@ import Footer from "components/Footers/Footer.js";
 const persLeft = require('../assets/img/pesonajePrincipalLeft.png').default;
 const persFront = require('../assets/img/pesonajePrincipalFront.png').default;
 const persRight = require('../assets/img/pesonajePrincipalRight.png').default;
-const persGroup = require('../assets/img/pesonajePrincipalGroup.png').default;
+// const persGroup = require('../assets/img/pesonajePrincipalGroup.png').default;
 
 export default function PageReactWithTailwindCSS() {
   return (
