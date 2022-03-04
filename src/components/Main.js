@@ -6,7 +6,7 @@ import Footer from "components/Footers/Footer.js";
 function App() {
   return (
     <>
-      <section className="mt-32 pb-0 relative bg-gray-500 ">
+      <section className="mt-32 pb-0 relative bg-gray-500 w-full">
         <div
           className="-mt-32 top-0 bottom-auto left-0 right-0 w-full absolute h-32 bg-gray-600"
           style={{ transform: "translateZ(0)" }}
@@ -26,7 +26,7 @@ function App() {
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto w-full">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-7/12 lg:w-4/12 px-10 md:px-4 mr-auto ml-auto md:-mt-44">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
@@ -62,22 +62,22 @@ function App() {
 
               <div className="container mx-auto ">
                 <div className="justify-center flex flex-wrap">
-                  <div className="w-full lg:w-12/12 px-4  -mt-24">
-                    <div className="flex flex-wrap pt-32">
-                      {/* <div className="w-full lg:w-8/12 px-4">
+                  <div className="w-full lg:w-12/12 px-4 -mt-24">
+                    <div className="flex flex-wrap pt-24">
+                      <div className="w-full lg:w-9/12 px-4">
                         <h5 className="text-xl font-semibold pb-4 text-center">
-                          Login Page
+                          Space X API
                         </h5>
-                        <Link to="/auth/login">
+                        <Link to="/spacex">
                           <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                             <img
                               alt="..."
                               className="align-middle border-none max-w-full h-auto rounded-lg"
-                              src={require("assets/img/login.jpg").default}
+                              src={require("assets/img/spacex1.jpg").default}
                             />
                           </div>
                         </Link>
-                      </div> */}
+                      </div>
 
                       <div className="w-full lg:w-9/12 px-4">
                         <h5 className="text-xl font-semibold pb-4 text-center">
@@ -90,7 +90,7 @@ function App() {
                             <img
                               alt="..."
                               className="align-middle border-none max-w-full h-auto rounded-lg"
-                              src={require("assets/img/misionnft.JPG").default}
+                              src={require("assets/img/misionnft1.JPG").default}
                             />
                           </div>
                         {/* </Link> */}
