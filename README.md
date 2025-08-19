@@ -7,7 +7,7 @@
 
 I’m a Front-end and Back-end developer based in Medellín, Colombia with 2 years of experience in the software industry. I like to work in teams, I enjoy investigating new technologies and entrepreneurship, I like to be constantly learning and facing challenges that make me a better person and a better professional.
 
-🌱 &nbsp;&nbsp;Now I am learning about Web3.
+🌱 &nbsp;&nbsp;Now I am learning about 'Code with IA'.
 
 ## 🎯 &nbsp;&nbsp;Some technologies I use:
 <p align="center">
