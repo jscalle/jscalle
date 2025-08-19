@@ -5,7 +5,7 @@
 
 <!-- https://github.com/alexcamachogz/alexcamachogz/blob/a2baf4c4607a5e27e6d01b4b720d1088e85bac2a/alex-banner.png?raw=true -->
 
-I’m a Front-end and Back-end developer based in Medellín, Colombia with 2 years of experience in the software industry. I like to work in teams, I enjoy investigating new technologies and entrepreneurship, I like to be constantly learning and facing challenges that make me a better person and a better professional.
+I’m a Front-end and Back-end (based in Javascript) developer and Power Platform developer based in Medellín, Colombia with 5+ years of experience in the software industry. I like to work in teams, I enjoy investigating new technologies and entrepreneurship, I like to be constantly learning and facing challenges that make me a better person and a better professional.
 
 🌱 &nbsp;&nbsp;Now I am learning about 'Code with IA'.
 
