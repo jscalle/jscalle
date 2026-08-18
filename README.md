@@ -1,9 +1,5 @@
 # 🚀 Hola, soy Sebastian Calle (jscalle)
 
-<p align="left">
-  <img src="https://herokuapp.com" alt="Typing SVG" />
-</p>
-
 Ingeniero de Software enfocado en la creación de productos **AI-First**. Me especializo en transformar datos estáticos en relaciones comerciales dinámicas y en la automatización inteligente de procesos industriales.
 
 ---
@@ -52,5 +48,5 @@ Organizo mis métricas para mostrar mi actividad reciente y los lenguajes que do
 ### 📫 Conectemos
 
 <p align="left">
-<a href="https://linkedin.com" target="blank"><img align="center" src="https://githubusercontent.com" alt="jscalle" height="30" width="40" /></a>
+<p> LinkedIn = <img align="center" src="https://githubusercontent.com" alt="jscalle" height="30" width="40" /> </p>
 </p>
