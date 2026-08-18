@@ -24,5 +24,5 @@ I’m a Front-end and Back-end (based in Javascript) developer and Power Platfor
 
 ## 📈 &nbsp;&nbsp;Some of my stats are:
 <p align="center">
-  <img align="" src="https://github-readme-stats.vercel.app/api?username=jscalle&theme=merko&show_icons=true&hide=contribs" />
+  <img align="" src="https://github-stats-extended.vercel.app/api?username=jscalle&theme=merko&show_icons=true&hide=contribs" />
 </p>
