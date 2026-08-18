@@ -1,28 +1,56 @@
-### Hi there, I'm Juan Sebastian Calle Loaiza 👋
+# 🚀 Hola, soy Sebastian Calle (jscalle)
 
-<!--
-**jscalle/jscalle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-<!-- https://github.com/alexcamachogz/alexcamachogz/blob/a2baf4c4607a5e27e6d01b4b720d1088e85bac2a/alex-banner.png?raw=true -->
-
-I’m a Front-end and Back-end (based in Javascript) developer and Power Platform developer based in Medellín, Colombia with 5+ years of experience in the software industry. I like to work in teams, I enjoy investigating new technologies and entrepreneurship, I like to be constantly learning and facing challenges that make me a better person and a better professional.
-
-🌱 &nbsp;&nbsp;Now I am learning about 'Code with IA'.
-
-## 🎯 &nbsp;&nbsp;Some technologies I use:
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/-ReactJs-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/-React%20Native-007ACC?style=for-the-badge&logo=react&logoColor=white" alt="React" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/github%20-%23000.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<p align="left">
+  <img src="https://herokuapp.com" alt="Typing SVG" />
 </p>
 
-## 📈 &nbsp;&nbsp;Some of my stats are:
-<p align="center">
-  <img align="" src="https://github-stats-extended.vercel.app/api?username=jscalle&theme=merko&show_icons=true&hide=contribs" />
+Ingeniero de Software enfocado en la creación de productos **AI-First**. Me especializo en transformar datos estáticos en relaciones comerciales dinámicas y en la automatización inteligente de procesos industriales.
+
+---
+
+### 🤖 Stack de Inteligencia Artificial & Ingeniería
+
+Para construir soluciones escalables, orquesto un ecosistema de herramientas avanzadas enfocadas en el rendimiento y la precisión:
+
+| Categoría | Tecnologías & Frameworks Dominados |
+| :--- | :--- |
+| **Orquestación de LLMs** | **LangChain** (v1.0+), **LangGraph**, **Vercel AI SDK 6** |
+| **Modelos Fundacionales** | **Gemini 2.0/1.5** (Google AI Studio), **Claude 3.5 Sonnet**, **GPT-4o** |
+| **Flujos de Agentes** | Sistemas Multi-agentes, Herramientas de Uso (Function Calling), **Agentic RAG** |
+| **Bases de Datos Vectoriales** | **Supabase** (pgvector), **Pinecone** para búsqueda semántica |
+| **Desarrollo Asistido** | **Claude Code**, GitHub Copilot, **Cursor**, Prompt Engineering avanzado |
+
+---
+
+### 📊 GitHub Insights & Performance
+
+Organizo mis métricas para mostrar mi actividad reciente y los lenguajes que dominan mi flujo de trabajo actual:
+
+<table align="center" border="0">
+  <tr>
+    <td width="55%" align="center">
+      <img src="https://vercel.app" alt="Estadísticas de jscalle" />
+    </td>
+    <td width="45%" align="center">
+      <img src="https://vercel.app" alt="Top Lenguajes" />
+    </td>
+  </tr>
+</table>
+
+> [!IMPORTANT]
+> **Enfoque Actual:** Optimizando pipelines de **RAG** con **LangGraph** para mejorar la recuperación de información en contextos empresariales complejos.
+
+---
+
+### 🛠️ Proyectos de Impacto
+
+*   **WeData:** Proyecto B2B enfocado en el crecimiento basado en datos, utilizando marcos de consentimiento (**Ley 1581**) para convertir datos en relaciones.
+*   **Automatización Industrial:** Desarrollo de agentes inteligentes para la optimización de procesos en el sector automotriz (Carrocerías Panamericana).
+
+---
+
+### 📫 Conectemos
+
+<p align="left">
+<a href="https://linkedin.com" target="blank"><img align="center" src="https://githubusercontent.com" alt="jscalle" height="30" width="40" /></a>
 </p>
