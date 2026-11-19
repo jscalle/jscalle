@@ -14,10 +14,7 @@ I’m a Front-end and Back-end (based in Javascript) developer and Power Platfor
   <img src="https://img.shields.io/badge/IA-5B45E1?style=for-the-badge" alt="Inteligencia Artificial" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Kiro-6C47FF?style=for-the-badge" alt="Kiro" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Kiro-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Kiro" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Kiro-6C47FF?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Kiro" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />&nbsp;&nbsp;
