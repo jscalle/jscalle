@@ -5,9 +5,11 @@
 
 <!-- https://github.com/alexcamachogz/alexcamachogz/blob/a2baf4c4607a5e27e6d01b4b720d1088e85bac2a/alex-banner.png?raw=true -->
 
-I’m a Front-end and Back-end (based in Javascript) developer and Power Platform developer based in Medellín, Colombia with 5+ years of experience in the software industry. I like to work in teams, I enjoy investigating new technologies and entrepreneurship, I like to be constantly learning and facing challenges that make me a better person and a better professional.
+Hi there! 👋 I’m a **Full-Stack (JavaScript)** and **Power Platform Developer** from Medellín, Colombia, with 5+ years of experience in the software industry.
 
-🌱 &nbsp;&nbsp;Now I am learning about 'Code with IA'.
+- 🤝 Strong believer in teamwork and collaborative problem-solving.
+- 💡 Passionate about emerging technologies, entrepreneurship, and continuous growth.
+- 🌱 Currently learning and building with **AI-assisted coding tools**.
 
 ## 🎯 &nbsp;&nbsp;Some technologies I use:
 <p align="center">
@@ -27,7 +29,8 @@ I’m a Front-end and Back-end (based in Javascript) developer and Power Platfor
   <img src="https://img.shields.io/badge/github%20-%23000.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
-## 📈 &nbsp;&nbsp;Some of my stats are:
+<!--## 📈 &nbsp;&nbsp;Some of my stats are:
 <p align="center">
   <img align="" src="https://github-stats-extended.vercel.app/api?username=jscalle&theme=merko&show_icons=true&hide=contribs" />
 </p>
+-->
