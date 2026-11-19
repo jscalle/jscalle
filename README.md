@@ -5,7 +5,7 @@
 
 <!-- https://github.com/alexcamachogz/alexcamachogz/blob/a2baf4c4607a5e27e6d01b4b720d1088e85bac2a/alex-banner.png?raw=true -->
 
-Hi there! 👋 I’m a **Full-Stack (JavaScript)** and **Power Platform Developer** from Medellín, Colombia, with 5+ years of experience in the software industry.
+I’m a **Full-Stack (JavaScript)** and **Power Platform Developer** from Medellín, Colombia, with 5+ years of experience in the software industry.
 
 - 🤝 Strong believer in teamwork and collaborative problem-solving.
 - 💡 Passionate about emerging technologies, entrepreneurship, and continuous growth.
